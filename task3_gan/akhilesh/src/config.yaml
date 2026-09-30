@@ -1,0 +1,24 @@
+# Task 3 config - Akhilesh
+run_name: cyclegan
+seed: 2026
+ngf: 64
+ndf: 64
+g_blocks: 9
+d_layers: 3
+upsample: resize
+spectral_norm: 0
+gan_loss: lsgan
+lambda_cyc: 10.0
+lambda_id: 0.3
+pool_size: 50
+lr: 0.0002
+beta1: 0.5
+n_epochs: 15
+n_epochs_decay: 15
+steps_per_epoch: 1000
+batch_size: 1
+load_size: 286
+crop_size: 256
+amp: 0
+num_workers: 4
+save_every: 5

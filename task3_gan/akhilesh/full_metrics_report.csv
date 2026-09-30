@@ -1,0 +1,60 @@
+metric,direction,value
+FID,B2A (photo->monet),93.5393
+FID_vs_real_stats_npz[mu_real/sigma_real],B2A (photo->monet),93.5641
+MiFID_cosine_paired_vs_npz_feats,B2A (photo->monet),0.410384
+KID_mean,B2A (photo->monet),0.0167695
+KID_std,B2A (photo->monet),0.00105047
+precision,B2A (photo->monet),0.338875
+recall,B2A (photo->monet),0.51
+density,B2A (photo->monet),0.285687
+coverage,B2A (photo->monet),0.906667
+MiFID_cosine_paired,B2A (photo->monet),0.410397
+nearest_real_cosine_distance_mean,B2A (photo->monet),0.260167
+content_cosine_similarity_input_vs_output,B2A (photo->monet),0.742229
+cycle_l1_mean,B2A (photo->monet),0.146086
+cycle_l1_std,B2A (photo->monet),0.0507784
+lpips_input_vs_output_mean,B2A (photo->monet),0.477337
+inference_images_per_sec,B2A (photo->monet),443.568
+n_generated,B2A (photo->monet),7038
+FID,A2B (monet->photo),113.557
+KID_mean,A2B (monet->photo),0.0477762
+KID_std,A2B (monet->photo),0.00163626
+precision,A2B (monet->photo),0.336667
+recall,A2B (monet->photo),0.188548
+density,A2B (monet->photo),0.29
+coverage,A2B (monet->photo),0.0282751
+MiFID_cosine_paired,A2B (monet->photo),0.433827
+nearest_real_cosine_distance_mean,A2B (monet->photo),0.210089
+content_cosine_similarity_input_vs_output,A2B (monet->photo),0.767635
+cycle_l1_mean,A2B (monet->photo),0.142183
+cycle_l1_std,A2B (monet->photo),0.0298016
+lpips_input_vs_output_mean,A2B (monet->photo),0.39239
+inference_images_per_sec,A2B (monet->photo),361.921
+n_generated,A2B (monet->photo),300
+cycle_loss_A_last_epoch_mean,training,1.36107
+cycle_loss_B_last_epoch_mean,training,1.42132
+identity_loss_A_last_epoch_mean,training,0.477822
+identity_loss_B_last_epoch_mean,training,0.441657
+G_loss_last_epoch_mean,training,4.85132
+D_A_loss_last_epoch_mean,training,0.106275
+D_B_loss_last_epoch_mean,training,0.131593
+grad_norm_G_mean,training,40.0468
+grad_norm_G_max,training,634.182
+grad_norm_D_mean,training,19.6248
+grad_norm_D_max,training,604.114
+nan_or_nonfinite_steps,training,0
+total_steps,training,30000
+parameter_count_G_AB,model,11378179
+parameter_count_G_BA,model,11378179
+parameter_count_D_A,model,2764737
+parameter_count_D_B,model,2764737
+parameter_count_total,model,28285832
+training_time_min,training,56.6359
+train_images_per_sec,training,8.82833
+peak_gpu_memory_gb_this_session,training,3.33558
+device,training,NVIDIA GeForce RTX 5090
+peak_gpu_memory_gb_eval,evaluation,1.9749
+feature_extractor,evaluation,torchvision
+extractor_check_FID_real_monet_vs_npz[pytorch_fid],evaluation,341.229
+extractor_check_FID_real_monet_vs_npz[torchvision],evaluation,0.074199
+checkpoint,evaluation,generators_final.pt

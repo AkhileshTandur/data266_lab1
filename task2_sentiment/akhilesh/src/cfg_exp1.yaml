@@ -1,0 +1,10 @@
+run_name: exp1_cnn
+model: cnn
+emb_dim: 128
+kernels: [3, 4, 5]
+n_filters: 128
+dropout: 0.5
+epochs: 8
+batch_size: 256
+lr: 0.001
+max_len: 256

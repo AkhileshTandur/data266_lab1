@@ -1,0 +1,16 @@
+{
+  "parameter_counts": {
+    "G_AB": 11378179,
+    "G_BA": 11378179,
+    "D_A": 2764737,
+    "D_B": 2764737,
+    "total": 28285832
+  },
+  "total_steps": 30000,
+  "epochs": 30,
+  "training_time_min": 56.635883724689485,
+  "train_images_per_sec": 8.828325208635055,
+  "peak_gpu_memory_gb_this_session": 3.335583232,
+  "nonfinite_steps": 0,
+  "device": "NVIDIA GeForce RTX 5090"
+}

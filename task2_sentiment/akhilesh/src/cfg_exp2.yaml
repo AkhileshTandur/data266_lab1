@@ -1,0 +1,11 @@
+run_name: exp2_bilstm
+model: bilstm
+emb_dim: 128
+hidden: 128
+num_layers: 1
+pooling: max
+dropout: 0.3
+epochs: 6
+batch_size: 128
+lr: 0.001
+max_len: 256

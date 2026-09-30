@@ -1,0 +1,67 @@
+=== prompt: 'Once upon a time' | temp=0.8,top_k=0 ===
+Once upon a time there was a baby who loved to play. He loved to play with his friends, and he had a lot of fun together. 
+
+One day, the baby was playing in the garden when he noticed something in the distance. It was a shiny penny! The baby was so excited, he shouted "Look mommy, what is that?". His mom smiled and said, "That's a penny, that is very pretty." 
+
+The baby was so happy that he started to gather the penny for the penny and put it in the oven. Then he cooked the penny up and it was very interesting. 
+
+The baby was finally happy that the penny had filled with joy. He realized that even if it gets l
+
+=== prompt: 'One day, a little girl named Lily' | temp=0.8,top_k=0 ===
+One day, a little girl named Lily found a drawer that was very cheap. She thought it might be fun to draw again! But she knew it was her favorite toy, a wise old owl was always special to her.
+
+Lily wanted to draw the wise owl, so she asked her mommy if she could have it. Her mommy said yes and they bought the wise old owl and they could buy it for her. The owl took the wise owl to the park and they went home instead. The owl thanked Lily and said goodbye before she left. Lily felt happy and content in her life.
+<EOS>
+Once upon a time, there was a little girl named Lily. She loved to play outside with her friends, the cat and the d
+
+=== prompt: 'The dog was very sad because' | temp=0.8,top_k=0 ===
+The dog was very sad because his hat was ruined. His mom took him to the doctor to show him some money to the doctor. The doctor told the doctor that he would be gone to buy his hat. The doctor said he would get a shot for the doctor to give him a treat.
+
+The doctor went to the doctor's office and gave him a hug. He told him he had to pay a little bit of treats for the doctor. The doctor said he could buy a new hat, but soon his bed was not wet anymore.
+
+The doctor was very happy and forgave the doctor. He said that he was brave and could not wait to go home again. The doctor told Lily what she had done and that the doct
+
+=== prompt: 'Tom and his mom went to the park.' | temp=0.8,top_k=0 ===
+Tom and his mom went to the park. 
+
+"Mom, I see a big log," Tom said.
+
+"Me too," she said.
+
+They played with the log and the flowers for a long time. They laughed and shouted as they made the log go faster. 
+
+They sang and sang songs in the air. Then they drew a happy picture of the girl and the flowers. They talked and laughed and had a great day.
+<EOS>
+Once upon a time, there was a boy named Timmy. Timmy was very curious and often wanted to explore the world. One day, he went to the park and saw a big bird. The bird said, "Wow, Timmy! That's amazing!" Timmy said, "I want to touch the bird. Can you help me?" The bird said, "I can 
+
+=== prompt: 'There was a big red ball' | temp=0.8,top_k=0 ===
+There was a big red ball. It was blue and had long hair and a swing. It looked like a rainbow.
+
+"Look, a picture," Lily said. She picked it up and hugged it. "It is very bright and shiny and new."
+
+"It was fun," Ben said. He took the picture and ran to the sink.
+
+"Here, take it." Lily said. She pushed the picture to the sink.
+
+Ben was shocked and sad. He started to cry.
+
+"Sorry, Lily, I'm sorry," he said. "You did not share. You are a bad sister. You were not nice. You broke my picture. You should not learn to respect each other."
+
+Lily and Ben felt sorry. They said sorry to each other. They hugged again. They decide
+
+=== prompt: 'Once upon a time' | greedy ===
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big bush with lots of bright yellow berries. She wanted to eat them, but she was scared of the bush.
+
+Lily went to her mom and said, "Mommy, can I have these berries?" Her mom said, "Yes, you can have them." Lily was so happy and thanked her mom. She took a big bite and said, "Mmm, these berries are so yummy!" Her mom smiled and said, "Yes, you can have them." They both enjoyed the berries together and had a great time playing with them.
+<EOS>
+Once upon a time, there was a little girl named Lily. She 
+
+=== prompt: 'One day, a little girl named Lily' | greedy ===
+One day, a little girl named Lily went to the park with her mom. They saw a big slide and wanted to go on it. But there was a big slide that was too high for her. Lily was sad because she couldn't go on the slide.
+
+Lily's mom said, "Don't worry, we can go on the slide together. It's too high for us to reach." Lily was happy and said, "Thank you, Mommy. You're the best slide ever!" And they went on their way, happy and full.
+<EOS>
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big building with a long tail. She wanted to see what was on the other side.
+
+Lily went t
+

@@ -1,0 +1,44 @@
+model,metric,value
+baseline,model_type,bow
+baseline,accuracy,0.922868
+baseline,precision_macro,0.922874
+baseline,recall_macro,0.922868
+baseline,f1_macro,0.922868
+baseline,precision_micro,0.922868
+baseline,recall_micro,0.922868
+baseline,f1_micro,0.922868
+baseline,precision_weighted,0.922874
+baseline,recall_weighted,0.922868
+baseline,f1_weighted,0.922868
+baseline,cm_tn,17568
+baseline,cm_fp,1432
+baseline,cm_fn,1499
+baseline,cm_tp,17501
+baseline,roc_auc,0.975643
+baseline,pr_auc,0.975682
+baseline,mcc,0.845742
+baseline,brier,0.0575289
+baseline,ece_15bin,0.00479577
+baseline,accuracy_ci95_low,0.920158
+baseline,accuracy_ci95_high,0.925316
+baseline,macro_f1_ci95_low,0.920152
+baseline,macro_f1_ci95_high,0.925316
+baseline,mcc_ci95_low,0.840305
+baseline,mcc_ci95_high,0.850649
+baseline,slice_macro_f1[short (<= 65 words)],0.918149
+baseline,slice_error_rate[short (<= 65 words)],0.0795241
+baseline,slice_macro_f1[medium (65-142 words)],0.92434
+baseline,slice_error_rate[medium (65-142 words)],0.0756582
+baseline,slice_macro_f1[long (> 142 words)],0.921211
+baseline,slice_error_rate[long (> 142 words)],0.0761829
+baseline,slice_macro_f1[contains negation],0.915622
+baseline,slice_error_rate[contains negation],0.081562
+baseline,slice_macro_f1[no negation],0.911071
+baseline,slice_error_rate[no negation],0.0641662
+baseline,parameter_count,3459201
+baseline,training_time_s,36.8159
+baseline,train_examples_per_sec,17599.6
+baseline,peak_gpu_memory_gb,0.347552
+baseline,epochs_run,6
+baseline,device,NVIDIA GeForce RTX 5090
+baseline,hyperparameters,"{""model"": ""bow"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 100, ""pooling"": ""last"", ""dropout"": 0.3, ""lr"": 0.002, ""batch_size"": 256, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 8}"

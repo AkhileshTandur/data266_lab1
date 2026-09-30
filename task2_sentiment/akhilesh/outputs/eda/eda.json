@@ -1,0 +1,44 @@
+{
+  "full_train_size": 560000,
+  "full_test_size": 38000,
+  "full_train_class_counts": {
+    "0": 280000,
+    "1": 280000
+  },
+  "train_missing_or_empty": 0,
+  "train_exact_duplicates": 0,
+  "test_missing_or_empty": 0,
+  "train_subsample_size": 120000,
+  "train_subsample_class_counts": {
+    "0": 59992,
+    "1": 60008
+  },
+  "words_class0": {
+    "mean": 152.03522136284838,
+    "median": 112.0,
+    "p95": 424.0,
+    "max": 1052
+  },
+  "words_class1": {
+    "mean": 115.56072523663512,
+    "median": 85.0,
+    "p95": 316.0,
+    "max": 943
+  },
+  "train_empty_after_cleaning_dropped": 11,
+  "tokens_after_cleaning": {
+    "mean": 61.27183325138137,
+    "median": 45.0,
+    "p95": 169.0,
+    "pct_truncated_at_max_len": 0.013601246780954921
+  },
+  "vocab_size": 26895,
+  "train_token_coverage": 0.9932915585470231,
+  "test_size": 38000,
+  "splits": {
+    "train": 107991,
+    "val": 11998,
+    "test": 38000
+  },
+  "preprocessing_seconds": 29.65019178390503
+}
