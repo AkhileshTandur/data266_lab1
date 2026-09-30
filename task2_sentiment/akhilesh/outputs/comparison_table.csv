@@ -1,0 +1,44 @@
+metric,baseline,exp1_cnn,exp2_bilstm
+model_type,bow,cnn,bilstm
+accuracy,0.922868,0.924632,0.930921
+precision_macro,0.922874,0.924635,0.930922
+recall_macro,0.922868,0.924632,0.930921
+f1_macro,0.922868,0.924631,0.930921
+precision_micro,0.922868,0.924632,0.930921
+recall_micro,0.922868,0.924632,0.930921
+f1_micro,0.922868,0.924632,0.930921
+precision_weighted,0.922874,0.924635,0.930922
+recall_weighted,0.922868,0.924632,0.930921
+f1_weighted,0.922868,0.924631,0.930921
+cm_tn,17568,17541,17673
+cm_fp,1432,1459,1327
+cm_fn,1499,1405,1298
+cm_tp,17501,17595,17702
+roc_auc,0.975643,0.978102,0.980399
+pr_auc,0.975682,0.978621,0.980748
+mcc,0.845742,0.849267,0.861843
+brier,0.0575289,0.0557688,0.052156
+ece_15bin,0.00479577,0.00939831,0.0108747
+accuracy_ci95_low,0.920158,0.922236,0.928447
+accuracy_ci95_high,0.925316,0.927105,0.9335
+macro_f1_ci95_low,0.920152,0.922235,0.928447
+macro_f1_ci95_high,0.925316,0.927102,0.9335
+mcc_ci95_low,0.840305,0.844475,0.8569
+mcc_ci95_high,0.850649,0.854206,0.867
+slice_macro_f1[short (<= 65 words)],0.918149,0.918175,0.930122
+slice_error_rate[short (<= 65 words)],0.0795241,0.0793676,0.0677833
+slice_macro_f1[medium (65-142 words)],0.92434,0.927421,0.931928
+slice_error_rate[medium (65-142 words)],0.0756582,0.0725749,0.0680686
+slice_macro_f1[long (> 142 words)],0.921211,0.923422,0.926168
+slice_error_rate[long (> 142 words)],0.0761829,0.0741153,0.0714115
+slice_macro_f1[contains negation],0.915622,0.918839,0.925602
+slice_error_rate[contains negation],0.081562,0.0785608,0.0720288
+slice_macro_f1[no negation],0.911071,0.908271,0.916528
+slice_error_rate[no negation],0.0641662,0.066026,0.0604464
+parameter_count,3459201,3639937,3707009
+training_time_s,20.2768,33.0157,173.853
+train_examples_per_sec,31955,26167.2,3105.82
+peak_gpu_memory_gb,0.347552,0.616455,0.855003
+epochs_run,6,8,5
+device,NVIDIA GeForce RTX 5090,NVIDIA GeForce RTX 5090,NVIDIA GeForce RTX 5090
+hyperparameters,"{""model"": ""bow"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 100, ""pooling"": ""last"", ""dropout"": 0.3, ""lr"": 0.002, ""batch_size"": 256, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 8}","{""model"": ""cnn"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 128, ""pooling"": ""last"", ""dropout"": 0.5, ""lr"": 0.001, ""batch_size"": 256, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 8}","{""model"": ""bilstm"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 100, ""pooling"": ""max"", ""dropout"": 0.3, ""lr"": 0.001, ""batch_size"": 128, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 6}"

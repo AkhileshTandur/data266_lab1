@@ -1,0 +1,16 @@
+2026-09-29 23:30:07,134 | log file: .\logs\exp1_cnn_train_20260929_233006.log | device: NVIDIA GeForce RTX 5090
+2026-09-29 23:30:07,135 | args: {"config": "src\\cfg_exp1.yaml", "mode": "train", "out_dir": ".", "run_name": "exp1_cnn", "seed": 266, "cache_dir": null, "n_train": 120000, "val_frac": 0.1, "remove_stopwords": 1, "keep_negations": 1, "stem": 1, "min_freq": 3, "max_vocab": 30000, "max_len": 256, "model": "cnn", "emb_dim": 128, "hidden": 128, "num_layers": 1, "kernels": [3, 4, 5], "n_filters": 128, "pooling": "last", "dropout": 0.5, "epochs": 8, "batch_size": 256, "lr": 0.001, "weight_decay": 0.0001, "grad_clip": 1.0, "patience": 2, "threshold": 0.5, "n_boot": 1000, "num_workers": 2, "baseline_preds": null, "exp_preds": []}
+2026-09-29 23:30:07,149 | loading cached preprocessing .\data_processed\prep_55658e63b3.pkl
+2026-09-29 23:30:07,362 | model=cnn params=3,639,937 vocab=26895
+2026-09-29 23:30:13,117 | epoch 1 train_loss 0.4947 val_loss 0.2663 val_acc 0.8905 (5s)
+2026-09-29 23:30:17,186 | epoch 2 train_loss 0.2731 val_loss 0.2212 val_acc 0.9113 (4s)
+2026-09-29 23:30:21,285 | epoch 3 train_loss 0.2222 val_loss 0.2051 val_acc 0.9177 (4s)
+2026-09-29 23:30:25,426 | epoch 4 train_loss 0.1918 val_loss 0.1987 val_acc 0.9211 (4s)
+2026-09-29 23:30:29,625 | epoch 5 train_loss 0.1706 val_loss 0.1987 val_acc 0.9209 (4s)
+2026-09-29 23:30:33,639 | epoch 6 train_loss 0.1552 val_loss 0.1972 val_acc 0.9219 (4s)
+2026-09-29 23:30:37,736 | epoch 7 train_loss 0.1435 val_loss 0.1975 val_acc 0.9212 (4s)
+2026-09-29 23:30:41,847 | epoch 8 train_loss 0.1396 val_loss 0.1977 val_acc 0.9216 (4s)
+2026-09-29 23:30:41,848 | early stopping
+2026-09-29 23:30:44,948 | test metrics: {"accuracy": 0.9246315789473685, "precision_macro": 0.9246350089631195, "recall_macro": 0.9246315789473685, "f1_macro": 0.9246314267487814, "precision_micro": 0.9246315789473685, "recall_micro": 0.9246315789473685, "f1_micro": 0.9246315789473685, "precision_weighted": 0.9246350089631195, "recall_weighted": 0.9246315789473685, "f1_weighted": 0.9246314267487814, "cm_tn": 17541, "cm_fp": 1459, "cm_fn": 1405, "cm_tp": 17595, "roc_auc": 0.9781021648199446, "pr_auc": 0.9786213338497557, "mcc": 0.8492665879035614, "brier": 0.05576879903674126, "ece_15bin": 0.009398307864603217, "accuracy_ci95_low": 0.9222361842105263, "accuracy_ci95_high": 0.9271052631578948, "macro_f1_ci95_low": 0.9222346072008921, "macro_f1_ci95_high": 0.9271018378773589, "mcc_ci95_low": 0.8444745275366436, "mcc_ci95_high": 0.8542061030087666}
+2026-09-29 23:30:44,948 | slices: [{"slice": "short (<= 65 words)", "n": 12776, "macro_f1": 0.9181751793375095, "error_rate": 0.07936756418284283}, {"slice": "medium (65-142 words)", "n": 12649, "macro_f1": 0.9274209989118196, "error_rate": 0.0725749071072812}, {"slice": "long (> 142 words)", "n": 12575, "macro_f1": 0.9234221696017396, "error_rate": 0.07411530815109343}, {"slice": "contains negation", "n": 28322, "macro_f1": 0.9188393499964969, "error_rate": 0.07856083609914553}, {"slice": "no negation", "n": 9678, "macro_f1": 0.9082709203719954, "error_rate": 0.06602603843769374}]
+2026-09-29 23:30:44,948 | wrote .\outputs\exp1_cnn/ and metrics_report.csv

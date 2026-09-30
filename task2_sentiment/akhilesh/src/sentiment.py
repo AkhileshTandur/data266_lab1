@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 """
 DATA 266 Lab 1, Task 2: Yelp Polarity sentiment classification, embeddings learned from scratch.
 
@@ -500,7 +500,7 @@ def error_review(y, prob, pred, texts, slices, slice_rows, seed, path):
     cand = [i for i in idx[err & slices[worst]] if i not in used]
     rng = np.random.default_rng(seed)
     sl = rng.choice(cand, size=min(5, len(cand)), replace=False) if cand else []
-    with open(path, "w", newline="") as f:
+    with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["category", "test_index", "true_label", "p_positive", "text", "error_type", "notes_and_fix"])
         for cat, ids in (("confident_false_positive", fp), ("confident_false_negative", fn),
@@ -514,7 +514,7 @@ def merge_metrics(path, run, rows):
     if os.path.exists(path):
         with open(path) as f:
             old = [r for r in csv.DictReader(f) if r["model"] != run]
-    with open(path, "w", newline="") as f:
+    with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["model", "metric", "value"])
         w.writeheader()
         for r in old:
@@ -656,3 +656,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

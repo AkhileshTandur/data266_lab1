@@ -36,9 +36,105 @@ baseline,slice_error_rate[contains negation],0.081562
 baseline,slice_macro_f1[no negation],0.911071
 baseline,slice_error_rate[no negation],0.0641662
 baseline,parameter_count,3459201
-baseline,training_time_s,36.8159
-baseline,train_examples_per_sec,17599.6
+baseline,training_time_s,20.2768
+baseline,train_examples_per_sec,31955
 baseline,peak_gpu_memory_gb,0.347552
 baseline,epochs_run,6
 baseline,device,NVIDIA GeForce RTX 5090
 baseline,hyperparameters,"{""model"": ""bow"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 100, ""pooling"": ""last"", ""dropout"": 0.3, ""lr"": 0.002, ""batch_size"": 256, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 8}"
+exp2_bilstm,model_type,bilstm
+exp2_bilstm,accuracy,0.930921
+exp2_bilstm,precision_macro,0.930922
+exp2_bilstm,recall_macro,0.930921
+exp2_bilstm,f1_macro,0.930921
+exp2_bilstm,precision_micro,0.930921
+exp2_bilstm,recall_micro,0.930921
+exp2_bilstm,f1_micro,0.930921
+exp2_bilstm,precision_weighted,0.930922
+exp2_bilstm,recall_weighted,0.930921
+exp2_bilstm,f1_weighted,0.930921
+exp2_bilstm,cm_tn,17673
+exp2_bilstm,cm_fp,1327
+exp2_bilstm,cm_fn,1298
+exp2_bilstm,cm_tp,17702
+exp2_bilstm,roc_auc,0.980399
+exp2_bilstm,pr_auc,0.980748
+exp2_bilstm,mcc,0.861843
+exp2_bilstm,brier,0.052156
+exp2_bilstm,ece_15bin,0.0108747
+exp2_bilstm,accuracy_ci95_low,0.928447
+exp2_bilstm,accuracy_ci95_high,0.9335
+exp2_bilstm,macro_f1_ci95_low,0.928447
+exp2_bilstm,macro_f1_ci95_high,0.9335
+exp2_bilstm,mcc_ci95_low,0.8569
+exp2_bilstm,mcc_ci95_high,0.867
+exp2_bilstm,slice_macro_f1[short (<= 65 words)],0.930122
+exp2_bilstm,slice_error_rate[short (<= 65 words)],0.0677833
+exp2_bilstm,slice_macro_f1[medium (65-142 words)],0.931928
+exp2_bilstm,slice_error_rate[medium (65-142 words)],0.0680686
+exp2_bilstm,slice_macro_f1[long (> 142 words)],0.926168
+exp2_bilstm,slice_error_rate[long (> 142 words)],0.0714115
+exp2_bilstm,slice_macro_f1[contains negation],0.925602
+exp2_bilstm,slice_error_rate[contains negation],0.0720288
+exp2_bilstm,slice_macro_f1[no negation],0.916528
+exp2_bilstm,slice_error_rate[no negation],0.0604464
+exp2_bilstm,parameter_count,3707009
+exp2_bilstm,training_time_s,173.853
+exp2_bilstm,train_examples_per_sec,3105.82
+exp2_bilstm,peak_gpu_memory_gb,0.855003
+exp2_bilstm,epochs_run,5
+exp2_bilstm,device,NVIDIA GeForce RTX 5090
+exp2_bilstm,hyperparameters,"{""model"": ""bilstm"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 100, ""pooling"": ""max"", ""dropout"": 0.3, ""lr"": 0.001, ""batch_size"": 128, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 6}"
+exp1_cnn,model_type,cnn
+exp1_cnn,accuracy,0.924632
+exp1_cnn,precision_macro,0.924635
+exp1_cnn,recall_macro,0.924632
+exp1_cnn,f1_macro,0.924631
+exp1_cnn,precision_micro,0.924632
+exp1_cnn,recall_micro,0.924632
+exp1_cnn,f1_micro,0.924632
+exp1_cnn,precision_weighted,0.924635
+exp1_cnn,recall_weighted,0.924632
+exp1_cnn,f1_weighted,0.924631
+exp1_cnn,cm_tn,17541
+exp1_cnn,cm_fp,1459
+exp1_cnn,cm_fn,1405
+exp1_cnn,cm_tp,17595
+exp1_cnn,roc_auc,0.978102
+exp1_cnn,pr_auc,0.978621
+exp1_cnn,mcc,0.849267
+exp1_cnn,brier,0.0557688
+exp1_cnn,ece_15bin,0.00939831
+exp1_cnn,accuracy_ci95_low,0.922236
+exp1_cnn,accuracy_ci95_high,0.927105
+exp1_cnn,macro_f1_ci95_low,0.922235
+exp1_cnn,macro_f1_ci95_high,0.927102
+exp1_cnn,mcc_ci95_low,0.844475
+exp1_cnn,mcc_ci95_high,0.854206
+exp1_cnn,slice_macro_f1[short (<= 65 words)],0.918175
+exp1_cnn,slice_error_rate[short (<= 65 words)],0.0793676
+exp1_cnn,slice_macro_f1[medium (65-142 words)],0.927421
+exp1_cnn,slice_error_rate[medium (65-142 words)],0.0725749
+exp1_cnn,slice_macro_f1[long (> 142 words)],0.923422
+exp1_cnn,slice_error_rate[long (> 142 words)],0.0741153
+exp1_cnn,slice_macro_f1[contains negation],0.918839
+exp1_cnn,slice_error_rate[contains negation],0.0785608
+exp1_cnn,slice_macro_f1[no negation],0.908271
+exp1_cnn,slice_error_rate[no negation],0.066026
+exp1_cnn,parameter_count,3639937
+exp1_cnn,training_time_s,33.0157
+exp1_cnn,train_examples_per_sec,26167.2
+exp1_cnn,peak_gpu_memory_gb,0.616455
+exp1_cnn,epochs_run,8
+exp1_cnn,device,NVIDIA GeForce RTX 5090
+exp1_cnn,hyperparameters,"{""model"": ""cnn"", ""emb_dim"": 128, ""hidden"": 128, ""num_layers"": 1, ""kernels"": [3, 4, 5], ""n_filters"": 128, ""pooling"": ""last"", ""dropout"": 0.5, ""lr"": 0.001, ""batch_size"": 256, ""weight_decay"": 0.0001, ""max_len"": 256, ""epochs"": 8}"
+mcnemar_baseline,mcnemar_vs_exp1_cnn_b_base_right_exp_wrong,916
+mcnemar_baseline,mcnemar_vs_exp1_cnn_c_base_wrong_exp_right,983
+mcnemar_baseline,mcnemar_vs_exp1_cnn_chi2_cc,2.29384
+mcnemar_baseline,mcnemar_vs_exp1_cnn_p_chi2_cc,0.129888
+mcnemar_baseline,mcnemar_vs_exp1_cnn_p_exact,0.129867
+mcnemar_baseline,mcnemar_vs_exp2_bilstm_b_base_right_exp_wrong,813
+mcnemar_baseline,mcnemar_vs_exp2_bilstm_c_base_wrong_exp_right,1119
+mcnemar_baseline,mcnemar_vs_exp2_bilstm_chi2_cc,48.1496
+mcnemar_baseline,mcnemar_vs_exp2_bilstm_p_chi2_cc,3.94912e-12
+mcnemar_baseline,mcnemar_vs_exp2_bilstm_p_exact,3.57014e-12
